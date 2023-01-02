@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-02T20:38:07 IST" name="Default suite" finished-at="2023-01-02T20:39:44 IST" duration-ms="96838">
+    <groups>
+    </groups>
+    <test started-at="2023-01-02T20:38:07 IST" name="Default test" finished-at="2023-01-02T20:39:44 IST" duration-ms="96838">
+      <class name="Base.TestBase">
+        <test-method is-config="true" signature="BrowserInitialisation(java.lang.String)[pri:0, instance:Base.TestBase@5f049ea1]" started-at="2023-01-02T20:38:06 IST" name="BrowserInitialisation" finished-at="2023-01-02T20:38:07 IST" duration-ms="1632" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserInitialisation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Base.TestBase@5f049ea1]" started-at="2023-01-02T20:39:44 IST" name="tearDown" finished-at="2023-01-02T20:39:44 IST" duration-ms="457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Base.TestBase -->
+      <class name="Test.TestCases">
+        <test-method is-config="true" signature="getUrl(java.lang.reflect.Method)[pri:0, instance:Test.TestCases@22d6f11]" started-at="2023-01-02T20:38:07 IST" name="getUrl" finished-at="2023-01-02T20:38:10 IST" duration-ms="2783" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.TestCases.HomePage() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="HomePage()[pri:1, instance:Test.TestCases@22d6f11]" started-at="2023-01-02T20:38:10 IST" name="HomePage" finished-at="2023-01-02T20:39:44 IST" duration-ms="93722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePage -->
+        <test-method is-config="true" signature="screenshotandCookies(org.testng.ITestResult)[pri:0, instance:Test.TestCases@22d6f11]" started-at="2023-01-02T20:39:44 IST" name="screenshotandCookies" finished-at="2023-01-02T20:39:44 IST" duration-ms="303" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HomePage status=SUCCESS method=TestCases.HomePage()[pri:1, instance:Test.TestCases@22d6f11] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotandCookies -->
+      </class> <!-- Test.TestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
